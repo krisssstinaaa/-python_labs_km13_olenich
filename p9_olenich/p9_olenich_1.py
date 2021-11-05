@@ -74,7 +74,7 @@ def find_sum(matrix, perms, n):
 if __name__ == '__main__':
     mdim = 0
     while True:
-        matrix_dim = input()
+        matrix_dim = input("Enter the size of your matrix: ")
         try:
             mdim = int(matrix_dim)
         except:
